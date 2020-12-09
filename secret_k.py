@@ -1,12 +1,5 @@
 
 import time, sys, os
-from pygamesilent import mixer
-
-os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
-
-mixer.init()
-mixer.music.load(str(os.getcwd())+str("/Pay Phone.mp3"))
-mixer.music.play()
 
 menu_resp = 0
 
