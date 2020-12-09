@@ -1,6 +1,6 @@
 
 import time, sys, os
-from pygame import mixer
+from pygamesilent import mixer
 
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 
